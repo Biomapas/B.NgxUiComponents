@@ -46,7 +46,7 @@ ng serve
 ```
 
 Then point your browser to http://localhost:4200.
-You should see the material slider component on the page.
+You should see the <aimie-button-refresh> component on the page.
 
 ## Components
 ### Buttons
