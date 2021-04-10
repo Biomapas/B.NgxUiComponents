@@ -3,7 +3,7 @@
 ![npm](https://aleen42.github.io/badges/src/npm.svg) ![](https://img.shields.io/npm/v/ngx-aimie) ![](https://img.shields.io/npm/dt/ngx-aimie) 
 
 ## About
-<strong>Aimie Components (<strong>ngx-aimie</strong>) is a UI component library for Angular 2+ developers.
+<strong>Aimie Components</strong> (<strong>ngx-aimie</strong>) is a UI component library for Angular 2+ developers.
 Aimie Components helps in constructing attractive, consistent, and functional SPA and PWA.
 
 The library is mainly intended for Biomapas use in their IT projects but is also available for public usage and contributions.
