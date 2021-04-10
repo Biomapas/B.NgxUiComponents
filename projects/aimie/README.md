@@ -1,6 +1,6 @@
 # Aimie Components
 
-![npm](https://aleen42.github.io/badges/src/npm.svg) ![](https://img.shields.io/npm/dt/aimie) ![](https://img.shields.io/npm/v/aimie)
+![npm](https://aleen42.github.io/badges/src/npm.svg) ![](https://img.shields.io/npm/v/ngx-aimie) ![](https://img.shields.io/npm/dt/ngx-aimie) 
 
 ## About
 <strong>Aimie Components (<strong>ngx-aimie</strong>) is a UI component library for Angular 2+ developers.
