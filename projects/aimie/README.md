@@ -65,6 +65,8 @@ Pass it from your request function to the component to start button animation.
 
 ### Other components will be added soon.
 
+...
+
 ## Contributions
 <strong>ngx-aimie</strong> is an open-sourced package. Contributions of any shape are welcome and appreciated.
 
