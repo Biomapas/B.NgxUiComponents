@@ -2,5 +2,46 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "projects",
-  "projects": {}
+  "projects": {
+    "aimie": {
+      "projectType": "library",
+      "root": "projects/aimie",
+      "sourceRoot": "projects/aimie/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/aimie/tsconfig.lib.json",
+            "project": "projects/aimie/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/aimie/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/aimie/src/test.ts",
+            "tsConfig": "projects/aimie/tsconfig.spec.json",
+            "karmaConfig": "projects/aimie/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/aimie/tsconfig.lib.json",
+              "projects/aimie/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }},
+  "defaultProject": "aimie"
 }

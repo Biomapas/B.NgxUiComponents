@@ -6,5 +6,30 @@
 */
 {
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./projects/aimie-paginator/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/aimie-paginator/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/aimie-buttons/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/aimie-buttons/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/aimie-button-refresh/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/aimie-button-refresh/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/aimie/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/aimie/tsconfig.spec.json"
+    }
+]
 }

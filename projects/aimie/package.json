@@ -1,0 +1,17 @@
+{
+  "name": "ngx-aimie",
+  "description": "TBA",
+  "author": "Pijus Rancevas",
+  "version": "0.0.5",
+  "peerDependencies": {
+    "@angular/cdk": "^10.2.7",
+    "@angular/material": "^10.2.7",
+    "@angular/animations": "~10.0.14",
+    "@angular/common": "~10.0.14",
+    "@angular/compiler": "~10.0.14",
+    "@angular/core": "~10.0.14"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
