@@ -20,7 +20,7 @@ Install by running the following command:
 npm install npx-aimie --save
 ```
 
-###Display a component
+### Display a component
 Let's display a button component in your app and verify that everything works.
 
 You need to import the AimieComponentsModule by adding the following lines to your app.module.ts file.
