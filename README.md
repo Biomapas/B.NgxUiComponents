@@ -1,4 +1,4 @@
-# AIMIE
+# Aimie Components
 
 ![npm](https://aleen42.github.io/badges/src/npm.svg) ![](https://img.shields.io/npm/dt/aimie) ![](https://img.shields.io/npm/v/aimie)
 
@@ -11,7 +11,7 @@ The library is mainly intended for Biomapas use in their IT projects but is also
 The current implementation of ngx-aimie is written on top of the Angular Material component library. As a result, it takes over most of its characteristics and features.
 
 ## Getting started
-This guide explains how to set up Aimie components.
+This guide explains how to set up Aimie Components.
 
 ### Install
 Install by running the following command:
@@ -20,7 +20,7 @@ Install by running the following command:
 npm install npx-aimie --save
 ```
 
-###Display a component
+### Display a component
 Let's display a button component in your app and verify that everything works.
 
 You need to import the AimieComponentsModule by adding the following lines to your app.module.ts file.
