@@ -3,17 +3,70 @@
 ![npm](https://aleen42.github.io/badges/src/npm.svg) ![](https://img.shields.io/npm/dt/aimie) ![](https://img.shields.io/npm/v/aimie)
 
 ## About
-TBA
+<strong>Aimie Components (<strong>ngx-aimie</strong>) is a UI component library for Angular 2+ developers.
+Aimie Components helps in constructing attractive, consistent, and functional SPA and PWA.
+
+The library is mainly intended for Biomapas use in their IT projects but is also available for public usage and contributions.
+
+The current implementation of ngx-aimie is written on top of the Angular Material component library. As a result, it takes over most of its characteristics and features.
 
 ## Getting started
+This guide explains how to set up Aimie components.
 
-TBA
+### Install
+Install by running the following command:
+
+```
+npm install npx-aimie --save
+```
+
+###Display a component
+Let's display a button component in your app and verify that everything works.
+
+You need to import the AimieComponentsModule by adding the following lines to your app.module.ts file.
+
+```
+import { AimieComponentsModule } from 'ngx-aimie';
+…
+@NgModule ({....
+imports: [...,
+AimieComponentsModule,
+…]
+```
+
+Add the <aimie-button-refresh> tag to the app.component.html like so:
+
+```
+<aimie-button-refresh [fetching]="bool"></aimie-button-refresh>
+```
+
+Run your local dev server:
+```
+ng serve
+```
+
+Then point your browser to http://localhost:4200.
+You should see the material slider component on the page.
 
 ## Components
-TBA
+### Buttons
+<strong>ngx-aimie</strong> buttons are native button or link elements enhanced with Material Design styling and ink ripples.
+
+#### Refresh
+
+Refresh button takes only one conditional parameter: `fetching: bool`.
+Pass it from your request function to the component to start button animation.
+
+```
+<aimie-button-refresh (click)="request()" [fetching]="bool"></aimie-button-refresh>
+```
+
+...
+
+### Other components will be added soon.
 
 ## Contributions
-TBA
+<strong>ngx-aimie</strong> is an open-sourced package. Contributions of any shape are welcome and appreciated.
 
 ## License
 The MIT License (MIT)
