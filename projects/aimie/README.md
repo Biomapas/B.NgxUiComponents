@@ -12,6 +12,7 @@ The library is mainly intended for Biomapas use in their IT projects but is also
 The current implementation of ngx-aimie is written on top of the Angular Material component library. As a result, it takes over most of its characteristics and features.
 
 ## Table of contents
+- [About](#about)
 - [Getting started](#getting-started)
   * [Install](#install)
   * [Display a component](#display-a-component)
@@ -108,4 +109,3 @@ Source: http://opensource.org/licenses/MIT
 
 ## Author
 [Pijus Rancevas](https://github.com/pijus-r)
-
