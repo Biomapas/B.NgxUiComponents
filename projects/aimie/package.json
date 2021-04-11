@@ -3,7 +3,19 @@
   "description": "Aimie Components (ngx-aimie) is a UI component library for Angular 2+ developers. Aimie Components helps in constructing attractive, consistent, and functional SPA and PWA. The library is mainly intended for Biomapas use in their IT projects but is also available for public usage and contributions. The current implementation of ngx-aimie is written on top of the Angular Material component library. As a result, it takes over most of its characteristics and features.",
   "author": "Pijus Rancevas",
   "homepage": "https://github.com/pijus-r/ngx-aimie",
-  "version": "0.1.2",
+  "keywords": [
+    "Biomapas",
+    "Angular Material",
+    "Angular",
+    "ngx",
+    "Aimie",
+    "Aimie Components",
+    "ngx-aimie",
+    "components",
+    "front-end",
+    "Material Design"
+  ],
+  "version": "0.1.3",
   "peerDependencies": {
     "@angular/cdk": "^10.2.7",
     "@angular/material": "^10.2.7",

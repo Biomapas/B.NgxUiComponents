@@ -1,6 +1,19 @@
 {
   "name": "aimie-components",
   "version": "0.0.0",
+  "keywords": [
+    "Biomapas",
+    "Angular Material",
+    "Angular",
+    "ngx",
+    "Aimie",
+    "Aimie Components",
+    "ngx-aimie",
+    "components",
+    "front-end",
+    "Material Design"
+  ],
+  "author": "Pijus Rancevas",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
