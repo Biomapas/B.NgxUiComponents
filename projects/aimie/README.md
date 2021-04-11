@@ -10,6 +10,18 @@ The library is mainly intended for Biomapas use in their IT projects but is also
 
 The current implementation of ngx-aimie is written on top of the Angular Material component library. As a result, it takes over most of its characteristics and features.
 
+## Table of contents
+- [Getting started](##Getting%201%20started)
+  * [Install](###Install)
+  * [Display a component](###Display%201%20a%201%20component)
+- [Components](##Components)
+  * [Buttons](###Buttons)
+    + [Fetching](####Fetching)
+- [Contributions](##Contributions)
+- [License](##License)
+  
+<!-- toc -->
+
 ## Getting started
 This guide explains how to set up Aimie Components.
 
@@ -34,10 +46,10 @@ AimieComponentsModule,
 …]
 ```
 
-Add the <aimie-button-refresh> tag to the app.component.html like so:
+Add the <aimie-button-fetching> tag to the app.component.html like so:
 
 ```
-<aimie-button-refresh [fetching]="bool"></aimie-button-refresh>
+<aimie-button-fetching [fetching]="bool"></aimie-button-fetching>
 ```
 
 Run your local dev server:
@@ -46,26 +58,35 @@ ng serve
 ```
 
 Then point your browser to http://localhost:4200.
-You should see the <aimie-button-refresh> component on the page.
+You should see the <aimie-button-fetching> component on the page.
 
 ## Components
 ### Buttons
 <strong>ngx-aimie</strong> buttons are native button or link elements enhanced with Material Design styling and ink ripples.
 
-#### Refresh
+#### Fetching
 
-Refresh button takes only one conditional parameter: `fetching: bool`.
-Pass it from your request function to the component to start button animation.
+Fetching button takes only three parameters:
+* fetching: bool
+* rotateIcon: bool
+* materialIcon: string
 
+Pass fetching parameter from your request function to the component to start button animation.
+Material icon defaults to `sync`.
 ```
-<aimie-button-refresh (click)="request()" [fetching]="bool"></aimie-button-refresh>
+<aimie-button-fetching (click)="request()" 
+                      [fetching]="bool"
+                      [rotateIcon]="bool"
+                      materialIcon="file_download">
+                      </aimie-button-fetching>
 ```
 
 ...
 
-### Other components will be added soon.
+#### Other components will be arrive shortly.
 
 ...
+
 
 ## Contributions
 <strong>ngx-aimie</strong> is an open-sourced package. Contributions of any shape are welcome and appreciated.

@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AimieButtonChipComponent } from './aimie-button-chip.component';
+import { AimieButtonFetchingComponent } from './aimie-button-fetching.component';
 
 describe('AimieButtonRefreshComponent', () => {
-  let component: AimieButtonChipComponent;
-  let fixture: ComponentFixture<AimieButtonChipComponent>;
+  let component: AimieButtonFetchingComponent;
+  let fixture: ComponentFixture<AimieButtonFetchingComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AimieButtonChipComponent ]
+      declarations: [ AimieButtonFetchingComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AimieButtonChipComponent);
+    fixture = TestBed.createComponent(AimieButtonFetchingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
