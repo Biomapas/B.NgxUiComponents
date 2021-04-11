@@ -86,7 +86,7 @@ Material icon defaults to `sync`.
 
 ...
 
-#### Other components will be arrive shortly.
+Other components will arrive shortly.
 
 ...
 
