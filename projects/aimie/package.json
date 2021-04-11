@@ -15,7 +15,7 @@
     "front-end",
     "Material Design"
   ],
-  "version": "0.1.3",
+  "version": "0.1.5",
   "peerDependencies": {
     "@angular/cdk": "^10.2.7",
     "@angular/material": "^10.2.7",
