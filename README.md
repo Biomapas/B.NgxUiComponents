@@ -3,6 +3,7 @@
 ![npm](https://aleen42.github.io/badges/src/npm.svg) ![](https://img.shields.io/npm/v/ngx-aimie) ![](https://img.shields.io/npm/dt/ngx-aimie)
 
 ## About
+
 <strong>Aimie Components</strong> (<strong>ngx-aimie</strong>) is a UI component library for Angular 2+ developers.
 Aimie Components helps in constructing attractive, consistent, and functional SPA and PWA.
 
@@ -11,14 +12,15 @@ The library is mainly intended for Biomapas use in their IT projects but is also
 The current implementation of ngx-aimie is written on top of the Angular Material component library. As a result, it takes over most of its characteristics and features.
 
 ## Table of contents
-- [Getting started](##Getting%201%20started)
-  * [Install](###Install)
-  * [Display a component](###Display%201%20a%201%20component)
-- [Components](##Components)
-  * [Buttons](###Buttons)
-    + [Fetching](####Fetching)
-- [Contributions](##Contributions)
-- [License](##License)
+- [Getting started](#getting-started)
+  * [Install](#install)
+  * [Display a component](#display-a-component)
+- [Components](#components)
+  * [Buttons](#buttons)
+    + [Fetching](#fetching)
+- [Contributions](#contributions)
+- [License](#license)
+- [Author](#author)
 
 <!-- toc -->
 
@@ -75,10 +77,10 @@ Pass fetching parameter from your request function to the component to start but
 Material icon defaults to `sync`.
 ```
 <aimie-button-fetching (click)="request()" 
-                      [fetching]="bool"
-                      [rotateIcon]="bool"
-                      materialIcon="file_download">
-                      </aimie-button-fetching>
+                       [fetching]="bool"
+                       [rotateIcon]="bool"
+                       materialIcon="file_download">
+                       </aimie-button-fetching>
 ```
 
 ...
