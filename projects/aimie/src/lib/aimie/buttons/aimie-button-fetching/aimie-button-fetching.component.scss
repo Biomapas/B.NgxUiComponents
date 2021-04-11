@@ -9,7 +9,7 @@
 
   .mat-icon {
     font-size: 1.45em;
-    margin-top: 2px !important;
+    margin-top: 1.8px !important;
   }
 }
 
@@ -19,19 +19,9 @@
   border: 1px solid #e0e0e0;
 }
 
-.rotate {
-  animation: rotation 2s infinite linear;
-  .mat-icon {
-    color: #292929 !important;
-  }
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
+@keyframes spinner {
   to {
-    transform: rotate(359deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -49,4 +39,21 @@
   border: 3px solid #ffffff;
   border-top-color: #375e86;
   animation: spinner 0.8s linear infinite;
+}
+
+
+.rotate {
+  animation: rotation 2s infinite linear;
+  .mat-icon {
+    color: #292929 !important;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }

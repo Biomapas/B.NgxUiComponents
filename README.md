@@ -69,15 +69,18 @@ You should see the <aimie-button-fetching> component on the page.
 
 #### Fetching
 
-Fetching button takes 2 parameters:
-* fetching: bool
-* materialIcon: string
+Fetching button takes 3 parameters:
+* `fetching: bool` - initiates animation sequence.
+* `materialIcon: string` - choose any [Material Design](https://fonts.google.com/icons) icon.
+* `rotateIcon: bool` - rotates the icon if `[fetching]` was also initiated.
 
 Pass fetching parameter from your request function to the component to start button animation.
+<br>
 Material icon defaults to `sync`.
 ```
 <aimie-button-fetching (click)="request()" 
                        [fetching]="bool"
+                       [rotateIcon]="bool"
                        materialIcon="refresh">
                        </aimie-button-fetching>
 ```
