@@ -5,7 +5,7 @@ import {Component, Input} from '@angular/core';
   selector: 'aimie-button-fetching',
   template: `
     <button mat-mini-fab class="sync-fab" [ngClass]="{'spinner': fetching}">
-      <mat-icon [ngClass]="{'rotate': fetching && rotateIcon}">{{materialIcon || 'sync'}}</mat-icon>
+      <mat-icon>{{materialIcon || 'sync'}}</mat-icon>
     </button>
   `,
   styleUrls: ['./aimie-button-fetching.component.scss']
@@ -13,6 +13,4 @@ import {Component, Input} from '@angular/core';
 export class AimieButtonFetchingComponent {
   @Input() public fetching: boolean;
   @Input() public materialIcon: string;
-  @Input() public rotateIcon: boolean;
-
 }

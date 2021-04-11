@@ -52,7 +52,7 @@ AimieComponentsModule,
 Add the <aimie-button-fetching> tag to the app.component.html like so:
 
 ```
-<aimie-button-fetching [fetching]="bool"></aimie-button-fetching>
+<aimie-button-fetching></aimie-button-fetching>
 ```
 
 Run your local dev server:
@@ -69,9 +69,8 @@ You should see the <aimie-button-fetching> component on the page.
 
 #### Fetching
 
-Fetching button takes only three parameters:
+Fetching button takes 2 parameters:
 * fetching: bool
-* rotateIcon: bool
 * materialIcon: string
 
 Pass fetching parameter from your request function to the component to start button animation.
@@ -79,14 +78,13 @@ Material icon defaults to `sync`.
 ```
 <aimie-button-fetching (click)="request()" 
                        [fetching]="bool"
-                       [rotateIcon]="bool"
-                       materialIcon="file_download">
+                       materialIcon="refresh">
                        </aimie-button-fetching>
 ```
 
 ...
 
-Other components will arrive shortly.
+⌛ Other components will arrive shortly.
 
 ...
 
