@@ -32,7 +32,7 @@ This guide explains how to set up Aimie Components.
 Install by running the following command:
 
 ```
-npm install npx-aimie --save
+npm install ngx-aimie --save
 ```
 
 ### Display a component
